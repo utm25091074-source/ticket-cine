@@ -1,1 +1,20 @@
-# ticket-cine
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ticket Cine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Compra Ticket Cine</h1>
+
+<input type="text" id="nombre" placeholder="Nombre">
+<button onclick="comprarTicket()">Comprar Ticket</button>
+
+<h2>Validar Ticket</h2>
+<input type="text" id="codigoTicket" placeholder="Código Ticket">
+<button onclick="validarTicket()">Validar Ticket</button>
+
+<script type="module" src="app.js"></script>
+</body>
+</html># ticket-cine
